@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:onClick="changePhoto"
+        android:orientation="horizontal"
+        android:text="Next"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_toEndOf="@+id/button"
+        android:onClick="goback"
+        android:orientation="horizontal"
+        android:text="Go Back"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Push the Next Button to view each of the cards Close up.  You will see on icon at the top left of each card.  Alphie has a green ON button on his bottom left, with five green buttons to its right.  Push the green button with the icon corresponding to a card's top left and follow the card's directions to interact with the robot." />
+
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="false"
+        android:cropToPadding="true"
+        android:rotation="90"
+        android:src="@drawable/card_1"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kenneth.alphieii.AlphieII">
+
+    <ImageView
+        android:id="@+id/Robot"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:src="@drawable/alphie_robot1"
+        android:scaleType="fitCenter"/>
+
+    <TextView android:id="@+id/mytexttester"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_marginTop="19dp"
+        android:visibility="gone"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cards"
+            android:onClick="changePhoto"
+            android:id="@+id/button"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:text="Help"
+            android:onClick="Help"/>
+
+
+        <ImageButton
+            android:id="@+id/Redb0"
+            android:layout_width="28dp"
+            android:background="@drawable/redbut0"
+            android:layout_height="30dp"
+            android:onClick="RedBut0"
+            android:layout_above="@+id/Redb1"
+            android:layout_alignStart="@+id/Redb1"
+            android:layout_marginStart="2dp"
+            android:layout_alignBottom="@+id/Redb1"
+            android:layout_marginBottom="34dp"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/Redb1"
+            android:layout_width="29dp"
+            android:background="@drawable/redbut1"
+            android:layout_height="30dp"
+            android:onClick="RedBut1"
+            android:layout_above="@+id/Redb2"
+            android:layout_alignStart="@+id/Redb2"
+            android:layout_marginStart="0dp"
+            android:layout_alignBottom="@+id/Redb2"
+            android:layout_marginBottom="34dp"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/Redb2"
+            android:layout_width="29dp"
+            android:background="@drawable/redbut2"
+            android:layout_height="30dp"
+            android:onClick="RedBut2"
+            android:layout_above="@+id/Redb3"
+            android:layout_alignStart="@+id/Redb3"
+            android:layout_marginStart="0dp"
+            android:layout_alignBottom="@+id/Redb3"
+            android:layout_marginBottom="34dp"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/Redb3"
+            android:layout_width="30dp"
+            android:background="@drawable/redbut3"
+            android:layout_height="30dp"
+            android:onClick="RedBut3"
+            android:layout_above="@+id/Redb4"
+            android:layout_alignStart="@+id/Redb4"
+            android:layout_alignBottom="@+id/Redb4"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="35dp"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/Redb4"
+            android:layout_width="29dp"
+            android:background="@drawable/redbut4"
+            android:layout_height="28dp"
+            android:onClick="RedBut4"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="146dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/button"
+            android:visibility="visible" />
+
+
+        <ImageButton
+            android:id="@+id/Yellowb0"
+            android:layout_width="28dp"
+            android:background="@drawable/yellowbut0"
+            android:layout_height="31dp"
+            android:onClick="YellowBut0"
+            android:layout_above="@+id/Yellowb1"
+            android:layout_alignEnd="@+id/Yellowb1"
+            android:layout_alignBottom="@+id/Yellowb1"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="33dp"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/Yellowb1"
+            android:layout_width="28dp"
+            android:background="@drawable/yellowbut1"
+            android:layout_height="32dp"
+            android:onClick="YellowBut1"
+            android:layout_above="@+id/Yellowb2"
+            android:layout_alignEnd="@+id/Yellowb2"
+            android:layout_alignBottom="@+id/Yellowb2"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="34dp"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/Yellowb2"
+            android:layout_width="29dp"
+            android:background="@drawable/yellowbut2"
+            android:layout_height="30dp"
+            android:onClick="YellowBut2"
+            android:layout_above="@+id/Yellowb3"
+            android:layout_alignEnd="@+id/Yellowb3"
+            android:layout_alignBottom="@+id/Yellowb3"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="35dp"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/Yellowb3"
+            android:layout_width="30dp"
+            android:background="@drawable/yellowbut3"
+            android:layout_height="31dp"
+            android:onClick="YellowBut3"
+            android:layout_above="@+id/Yellowb4"
+            android:layout_alignEnd="@+id/Yellowb4"
+            android:layout_alignBottom="@+id/Yellowb4"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="36dp"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/Yellowb4"
+            android:layout_width="30dp"
+            android:background="@drawable/yellowbut4"
+            android:onClick="YellowBut4"
+            android:layout_height="32dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="141dp"
+            android:layout_marginStart="168dp"
+            android:layout_toEndOf="@+id/Redb4"
+            android:visibility="visible" />
+
+
+        <ImageButton
+        android:id="@+id/On"
+        android:layout_width="27dp"
+        android:background="@drawable/on_button"
+        android:layout_height="30dp"
+        android:layout_alignTop="@id/Redb4"
+        android:layout_alignStart="@+id/Redb4"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="34dp"
+        android:onClick="ButtonOn"
+
+        android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/Square"
+            android:layout_width="30dp"
+
+            android:layout_height="34dp"
+            android:background="@drawable/square_button"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/On"
+            android:layout_marginBottom="108dp"
+            android:layout_marginLeft="33dp"
+            android:onClick="GreenSquareBut"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/Star"
+            android:layout_width="30dp"
+
+            android:layout_height="34dp"
+            android:background="@drawable/star_button"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/Square"
+            android:layout_marginBottom="108dp"
+            android:layout_marginLeft="33dp"
+            android:onClick="GreenStarBut"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/Triangle"
+            android:layout_width="30dp"
+            android:background="@drawable/triangle_button"
+            android:layout_height="34dp"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/Star"
+            android:layout_marginBottom="108dp"
+            android:layout_marginLeft="33dp"
+            android:onClick="GreenTriangleBut"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/Question"
+            android:layout_width="30dp"
+            android:background="@drawable/question_button"
+            android:layout_height="34dp"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/Triangle"
+            android:layout_marginBottom="108dp"
+            android:layout_marginLeft="33dp"
+            android:onClick="GreenQuestionBut"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/Music"
+            android:layout_width="30dp"
+            android:background="@drawable/music_button"
+            android:layout_height="34dp"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/Question"
+            android:layout_marginBottom="108dp"
+            android:layout_marginLeft="33dp"
+            android:onClick="GreenMusicBut"
+            android:visibility="visible" />
+
+
+        <VideoView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/videoView"
+            android:layout_width="155dp"
+            android:layout_height="110dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="378dp"
+            android:layout_marginLeft="133dp"
+            android:layout_centerHorizontal="true"
+            android:visibility="visible" />
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>
